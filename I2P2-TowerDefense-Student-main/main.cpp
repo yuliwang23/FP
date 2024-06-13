@@ -11,6 +11,9 @@
 #include "Scene/SettingsScene.hpp"
 #include "Scene/ScoreboardScene.hpp"
 
+#include "Scene/FarmSelectScene.hpp"
+#include "Scene/FarmScene.hpp"
+
 int main(int argc, char **argv) {
 	Engine::LOG::SetConfig(true);
 	Engine::GameEngine& game = Engine::GameEngine::GetInstance();
@@ -25,10 +28,10 @@ int main(int argc, char **argv) {
 	game.AddNewScene("stage-select", new StageSelectScene());
 	game.AddNewScene("scoreboard", new ScoreboardScene());
 	// Yuli
+	game.AddNewScene("farm-select", new FarmSelectScene());
+	game.AddNewScene("farm", new FarmScene());
+	//game.AddNewScene("farmplayer2", new FarmPlayer2Scene());
 
-    // TODO: [HACKATHON-1-SCENE] (4/4): Change the start scene
-	//game.Start("stage-select", 60, 1600, 832);
-	//game.Start("settings", 60, 1600, 832);
 	game.Start("start", 60, 1600, 832);
 	return 0;
 }

@@ -69,6 +69,7 @@ void WinScene::OnKeyDown(int keyCode) {
 		const time_t currentTime = chrono::system_clock::to_time_t(chrono::system_clock::now());
 		struct tm tstruct = *localtime(&currentTime);
 		string filename = string("Resource/scoreboard.txt");
+
 		// write
 		ofstream fout(filename, std::ios::app);
 		strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
@@ -76,6 +77,7 @@ void WinScene::OnKeyDown(int keyCode) {
 		fout.close();
 		winnerName.clear();
 		Engine::GameEngine::GetInstance().ChangeScene("stage-select");
+		
 	} else if (ALLEGRO_KEY_A <= keyCode && keyCode <= ALLEGRO_KEY_Z) {
 		winnerName.push_back(*al_keycode_to_name(keyCode));
 	} else {

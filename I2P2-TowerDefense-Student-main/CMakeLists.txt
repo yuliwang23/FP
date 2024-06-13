@@ -101,6 +101,24 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Turret/MyTurret.hpp
         Bullet/MyBullet.cpp
         Bullet/MyBullet.hpp
+
+        Scene/FarmScene.cpp
+        Scene/FarmScene.hpp
+        Scene/FarmSelectScene.cpp
+        Scene/FarmSelectScene.hpp
+        Plant/Plant.cpp
+        Plant/Plant.hpp
+        Plant/PlantButton.cpp
+        Plant/PlantButton.hpp
+        Plant/WheatPlant.cpp
+        Plant/WheatPlant.hpp
+        Plant/VegetablePlant.cpp
+        Plant/VegetablePlant.hpp
+        Plant/ApplePlant.cpp
+        Plant/ApplePlant.hpp
+        Plant/FlowerPlant.cpp
+        Plant/FlowerPlant.hpp
+
         ## Yuli
         ##UI/Component/TextInput.cpp
         ##UI/Component/TextInput.hpp

@@ -377,6 +377,7 @@ void PlayScene::ReadEnemyWave() {
 	}
 	fin.close();
 }
+
 void PlayScene::ConstructUI() {
 	// Background
 	UIGroup->AddNewObject(new Engine::Image("play/sand.png", 1280, 0, 320, 832));
