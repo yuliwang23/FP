@@ -102,6 +102,10 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Bullet/MyBullet.cpp
         Bullet/MyBullet.hpp
 
+        Bomb/FireEffect.cpp
+        Bomb/FireEffect.hpp
+        Bomb/HammerEffect.cpp
+        Bomb/HammerEffect.hpp
         Bomb/FirearmEffect.hpp
         Bomb/FirearmEffect.cpp
 
@@ -160,6 +164,9 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Scene/SeedStoreScene.h
         Scene/PotionStoreScene.cpp
         Scene/PotionStoreScene.h
+
+        UI/Component/Window.h
+        UI/Component/Window.cpp
 )
 
 IF (WIN32)
