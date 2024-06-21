@@ -102,6 +102,9 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Bullet/MyBullet.cpp
         Bullet/MyBullet.hpp
 
+        Bomb/FirearmEffect.hpp
+        Bomb/FirearmEffect.cpp
+
         Scene/FarmScene.cpp
         Scene/FarmScene.hpp
         Scene/FarmSelectScene.cpp
@@ -126,6 +129,9 @@ add_executable(2024_I2P2_TowerDefense_with_answer
 
         Scene/OurGameScene.cpp
         Scene/OurGameScene.hpp
+        Turret/TurretButton.hpp
+        Scene/WinScene.cpp
+        Scene/WinScene.hpp
         
         role/Role.cpp
         role/Role.hpp

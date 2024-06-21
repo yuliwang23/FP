@@ -12,9 +12,10 @@
 #include "PlayScene.hpp"
 #include "Engine/Point.hpp"
 #include "Engine/LOG.hpp"
+#include "UI/Component/Window.h"
 
 void PotionStoreScene::ReadMoney() {
-    std::string filename = std::string("Resource/money.txt");
+    std::string filename = std::string("../Resource/money.txt");
     std::ifstream fin(filename);
     std::string line;
 
@@ -36,12 +37,12 @@ void PotionStoreScene::Initialize() {
     AddNewObject(new Engine::Label("Player 1", "pirulen.ttf", 48, halfW * 1 / 2, halfH * 7 / 4, 255, 255, 255, 255, 0.5, 0.5));
     AddNewObject(new Engine::Label("Player 2", "pirulen.ttf", 48, halfW * 3 / 2, halfH * 7 / 4, 255, 255, 255, 255, 0.5, 0.5));
 
-    AddNewObject(new Engine::Image("Potion/potion1.png", halfW* 1 / 7, halfH+50, 0, 0, 0.5, 0.5));
-    AddNewObject(new Engine::Image("Potion/potion2.png", halfW* 3 / 7, halfH+50, 0, 0, 0.5, 0.5));
-    AddNewObject(new Engine::Image("Potion/potion3.png", halfW* 5 / 7, halfH+50, 0, 0, 0.5, 0.5));
-    AddNewObject(new Engine::Image("Potion/potion1.png", halfW* 9 / 7, halfH+50, 0, 0, 0.5, 0.5));
-    AddNewObject(new Engine::Image("Potion/potion2.png", halfW* 11 / 7, halfH+50, 0, 0, 0.5, 0.5));
-    AddNewObject(new Engine::Image("Potion/potion3.png", halfW* 13 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion1.png", "Potion/window1.png", "Resurrection", halfW* 1 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion2.png", "Potion/window2.png", "SpeedUp", halfW* 3 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion3.png", "Potion/window3.png", "SlowDown", halfW* 5 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion1.png", "Potion/window1.png", "Resurrection", halfW* 9 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion2.png", "Potion/window2.png", "SpeedUp", halfW* 11 / 7, halfH+50, 0, 0, 0.5, 0.5));
+    AddNewControlObject(new Engine::Window(2, "Potion/potion3.png", "Potion/window3.png", "SlowDown", halfW* 13 / 7, halfH+50, 0, 0, 0.5, 0.5));
 
     Engine::ImageButton* btn;
     btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW - 100, halfH * 7 / 4 - 25, 200, 50);
