@@ -1,4 +1,4 @@
-#ifndef WHEATLANT_HPP
+#ifndef WHEATPLANT_HPP
 #define WHEATPLANT_HPP
 #include "Plant.hpp"
 
@@ -6,6 +6,7 @@ class WheatPlant: public Plant {
 public:
 	static const int HarvestTime;
     WheatPlant(float x, float y);
-	void CreateBullet() override;
+
+	int Harvest();
 };
 #endif // WHEATPLANT_HPP

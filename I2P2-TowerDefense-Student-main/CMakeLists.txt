@@ -118,10 +118,42 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Plant/ApplePlant.hpp
         Plant/FlowerPlant.cpp
         Plant/FlowerPlant.hpp
-
+        Plant/SicklePlant.hpp
+        Plant/SicklePlant.cpp
         ## Yuli
         ##UI/Component/TextInput.cpp
         ##UI/Component/TextInput.hpp
+
+        Scene/OurGameScene.cpp
+        Scene/OurGameScene.hpp
+        
+        role/Role.cpp
+        role/Role.hpp
+        role/Role1.cpp
+        role/Role1.hpp
+        role/Role2.cpp
+        role/Role2.hpp
+        Bomb/Bomb.cpp
+        Bomb/Bomb.hpp
+        Bomb/Bomb1.cpp
+        Bomb/Bomb1.hpp
+        Instrument/Instrument.cpp
+        Instrument/Instrument.hpp
+        Instrument/Box.cpp
+        Instrument/Box.hpp
+        Instrument/Firearm.cpp
+        Instrument/Firearm.hpp
+        Instrument/Bubble.cpp
+        Instrument/Bubble.hpp
+        Instrument/Hammer.cpp
+        Instrument/Hammer.hpp
+        Instrument/ToolBomb.cpp
+        Instrument/ToolBomb.hpp
+
+        Scene/SeedStoreScene.cpp
+        Scene/SeedStoreScene.h
+        Scene/PotionStoreScene.cpp
+        Scene/PotionStoreScene.h
 )
 
 IF (WIN32)

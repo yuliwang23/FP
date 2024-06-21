@@ -49,6 +49,7 @@ public:
 	Group* BulletGroup;
 	Group* TowerGroup;
 	Group* EnemyGroup;
+	Group* PlantGroup;
 	Group* EffectGroup;
 	Group* UIGroup;
 	Engine::Label* UIMoney;

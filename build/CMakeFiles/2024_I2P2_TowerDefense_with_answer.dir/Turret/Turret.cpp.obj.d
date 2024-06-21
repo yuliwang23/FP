@@ -210,4 +210,26 @@ CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/Turret.cpp.obj: \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Group.hpp \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PlayScene.hpp \
  C:/allegro/include/allegro5/allegro_audio.h \
- C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Turret/Turret.hpp
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Turret/Turret.hpp \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+ C:/MinGW/x86_64-w64-mingw32/include/wctype.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc

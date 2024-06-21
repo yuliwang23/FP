@@ -129,6 +129,54 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build
 .PHONY : 2024_I2P2_TowerDefense_with_answer/fast
 
+Bomb/Bomb.obj: Bomb/Bomb.cpp.obj
+.PHONY : Bomb/Bomb.obj
+
+# target to build an object file
+Bomb/Bomb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj
+.PHONY : Bomb/Bomb.cpp.obj
+
+Bomb/Bomb.i: Bomb/Bomb.cpp.i
+.PHONY : Bomb/Bomb.i
+
+# target to preprocess a source file
+Bomb/Bomb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.i
+.PHONY : Bomb/Bomb.cpp.i
+
+Bomb/Bomb.s: Bomb/Bomb.cpp.s
+.PHONY : Bomb/Bomb.s
+
+# target to generate assembly for a file
+Bomb/Bomb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.s
+.PHONY : Bomb/Bomb.cpp.s
+
+Bomb/Bomb1.obj: Bomb/Bomb1.cpp.obj
+.PHONY : Bomb/Bomb1.obj
+
+# target to build an object file
+Bomb/Bomb1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj
+.PHONY : Bomb/Bomb1.cpp.obj
+
+Bomb/Bomb1.i: Bomb/Bomb1.cpp.i
+.PHONY : Bomb/Bomb1.i
+
+# target to preprocess a source file
+Bomb/Bomb1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.i
+.PHONY : Bomb/Bomb1.cpp.i
+
+Bomb/Bomb1.s: Bomb/Bomb1.cpp.s
+.PHONY : Bomb/Bomb1.s
+
+# target to generate assembly for a file
+Bomb/Bomb1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.s
+.PHONY : Bomb/Bomb1.cpp.s
+
 Bullet/Bullet.obj: Bullet/Bullet.cpp.obj
 .PHONY : Bullet/Bullet.obj
 
@@ -657,6 +705,150 @@ Engine/Sprite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Sprite.cpp.s
 .PHONY : Engine/Sprite.cpp.s
 
+Instrument/Box.obj: Instrument/Box.cpp.obj
+.PHONY : Instrument/Box.obj
+
+# target to build an object file
+Instrument/Box.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj
+.PHONY : Instrument/Box.cpp.obj
+
+Instrument/Box.i: Instrument/Box.cpp.i
+.PHONY : Instrument/Box.i
+
+# target to preprocess a source file
+Instrument/Box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.i
+.PHONY : Instrument/Box.cpp.i
+
+Instrument/Box.s: Instrument/Box.cpp.s
+.PHONY : Instrument/Box.s
+
+# target to generate assembly for a file
+Instrument/Box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.s
+.PHONY : Instrument/Box.cpp.s
+
+Instrument/Bubble.obj: Instrument/Bubble.cpp.obj
+.PHONY : Instrument/Bubble.obj
+
+# target to build an object file
+Instrument/Bubble.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj
+.PHONY : Instrument/Bubble.cpp.obj
+
+Instrument/Bubble.i: Instrument/Bubble.cpp.i
+.PHONY : Instrument/Bubble.i
+
+# target to preprocess a source file
+Instrument/Bubble.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.i
+.PHONY : Instrument/Bubble.cpp.i
+
+Instrument/Bubble.s: Instrument/Bubble.cpp.s
+.PHONY : Instrument/Bubble.s
+
+# target to generate assembly for a file
+Instrument/Bubble.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.s
+.PHONY : Instrument/Bubble.cpp.s
+
+Instrument/Firearm.obj: Instrument/Firearm.cpp.obj
+.PHONY : Instrument/Firearm.obj
+
+# target to build an object file
+Instrument/Firearm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj
+.PHONY : Instrument/Firearm.cpp.obj
+
+Instrument/Firearm.i: Instrument/Firearm.cpp.i
+.PHONY : Instrument/Firearm.i
+
+# target to preprocess a source file
+Instrument/Firearm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.i
+.PHONY : Instrument/Firearm.cpp.i
+
+Instrument/Firearm.s: Instrument/Firearm.cpp.s
+.PHONY : Instrument/Firearm.s
+
+# target to generate assembly for a file
+Instrument/Firearm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.s
+.PHONY : Instrument/Firearm.cpp.s
+
+Instrument/Hammer.obj: Instrument/Hammer.cpp.obj
+.PHONY : Instrument/Hammer.obj
+
+# target to build an object file
+Instrument/Hammer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj
+.PHONY : Instrument/Hammer.cpp.obj
+
+Instrument/Hammer.i: Instrument/Hammer.cpp.i
+.PHONY : Instrument/Hammer.i
+
+# target to preprocess a source file
+Instrument/Hammer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.i
+.PHONY : Instrument/Hammer.cpp.i
+
+Instrument/Hammer.s: Instrument/Hammer.cpp.s
+.PHONY : Instrument/Hammer.s
+
+# target to generate assembly for a file
+Instrument/Hammer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.s
+.PHONY : Instrument/Hammer.cpp.s
+
+Instrument/Instrument.obj: Instrument/Instrument.cpp.obj
+.PHONY : Instrument/Instrument.obj
+
+# target to build an object file
+Instrument/Instrument.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj
+.PHONY : Instrument/Instrument.cpp.obj
+
+Instrument/Instrument.i: Instrument/Instrument.cpp.i
+.PHONY : Instrument/Instrument.i
+
+# target to preprocess a source file
+Instrument/Instrument.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.i
+.PHONY : Instrument/Instrument.cpp.i
+
+Instrument/Instrument.s: Instrument/Instrument.cpp.s
+.PHONY : Instrument/Instrument.s
+
+# target to generate assembly for a file
+Instrument/Instrument.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.s
+.PHONY : Instrument/Instrument.cpp.s
+
+Instrument/ToolBomb.obj: Instrument/ToolBomb.cpp.obj
+.PHONY : Instrument/ToolBomb.obj
+
+# target to build an object file
+Instrument/ToolBomb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj
+.PHONY : Instrument/ToolBomb.cpp.obj
+
+Instrument/ToolBomb.i: Instrument/ToolBomb.cpp.i
+.PHONY : Instrument/ToolBomb.i
+
+# target to preprocess a source file
+Instrument/ToolBomb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.i
+.PHONY : Instrument/ToolBomb.cpp.i
+
+Instrument/ToolBomb.s: Instrument/ToolBomb.cpp.s
+.PHONY : Instrument/ToolBomb.s
+
+# target to generate assembly for a file
+Instrument/ToolBomb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.s
+.PHONY : Instrument/ToolBomb.cpp.s
+
 Plant/ApplePlant.obj: Plant/ApplePlant.cpp.obj
 .PHONY : Plant/ApplePlant.obj
 
@@ -873,6 +1065,30 @@ Scene/LoseScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/LoseScene.cpp.s
 .PHONY : Scene/LoseScene.cpp.s
 
+Scene/OurGameScene.obj: Scene/OurGameScene.cpp.obj
+.PHONY : Scene/OurGameScene.obj
+
+# target to build an object file
+Scene/OurGameScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj
+.PHONY : Scene/OurGameScene.cpp.obj
+
+Scene/OurGameScene.i: Scene/OurGameScene.cpp.i
+.PHONY : Scene/OurGameScene.i
+
+# target to preprocess a source file
+Scene/OurGameScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.i
+.PHONY : Scene/OurGameScene.cpp.i
+
+Scene/OurGameScene.s: Scene/OurGameScene.cpp.s
+.PHONY : Scene/OurGameScene.s
+
+# target to generate assembly for a file
+Scene/OurGameScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.s
+.PHONY : Scene/OurGameScene.cpp.s
+
 Scene/PlayScene.obj: Scene/PlayScene.cpp.obj
 .PHONY : Scene/PlayScene.obj
 
@@ -897,6 +1113,30 @@ Scene/PlayScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PlayScene.cpp.s
 .PHONY : Scene/PlayScene.cpp.s
 
+Scene/PotionStoreScene.obj: Scene/PotionStoreScene.cpp.obj
+.PHONY : Scene/PotionStoreScene.obj
+
+# target to build an object file
+Scene/PotionStoreScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj
+.PHONY : Scene/PotionStoreScene.cpp.obj
+
+Scene/PotionStoreScene.i: Scene/PotionStoreScene.cpp.i
+.PHONY : Scene/PotionStoreScene.i
+
+# target to preprocess a source file
+Scene/PotionStoreScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.i
+.PHONY : Scene/PotionStoreScene.cpp.i
+
+Scene/PotionStoreScene.s: Scene/PotionStoreScene.cpp.s
+.PHONY : Scene/PotionStoreScene.s
+
+# target to generate assembly for a file
+Scene/PotionStoreScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.s
+.PHONY : Scene/PotionStoreScene.cpp.s
+
 Scene/ScoreboardScene.obj: Scene/ScoreboardScene.cpp.obj
 .PHONY : Scene/ScoreboardScene.obj
 
@@ -920,6 +1160,30 @@ Scene/ScoreboardScene.s: Scene/ScoreboardScene.cpp.s
 Scene/ScoreboardScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/ScoreboardScene.cpp.s
 .PHONY : Scene/ScoreboardScene.cpp.s
+
+Scene/SeedStoreScene.obj: Scene/SeedStoreScene.cpp.obj
+.PHONY : Scene/SeedStoreScene.obj
+
+# target to build an object file
+Scene/SeedStoreScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj
+.PHONY : Scene/SeedStoreScene.cpp.obj
+
+Scene/SeedStoreScene.i: Scene/SeedStoreScene.cpp.i
+.PHONY : Scene/SeedStoreScene.i
+
+# target to preprocess a source file
+Scene/SeedStoreScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.i
+.PHONY : Scene/SeedStoreScene.cpp.i
+
+Scene/SeedStoreScene.s: Scene/SeedStoreScene.cpp.s
+.PHONY : Scene/SeedStoreScene.s
+
+# target to generate assembly for a file
+Scene/SeedStoreScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.s
+.PHONY : Scene/SeedStoreScene.cpp.s
 
 Scene/SettingsScene.obj: Scene/SettingsScene.cpp.obj
 .PHONY : Scene/SettingsScene.obj
@@ -1353,6 +1617,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+role/Role.obj: role/Role.cpp.obj
+.PHONY : role/Role.obj
+
+# target to build an object file
+role/Role.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj
+.PHONY : role/Role.cpp.obj
+
+role/Role.i: role/Role.cpp.i
+.PHONY : role/Role.i
+
+# target to preprocess a source file
+role/Role.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.i
+.PHONY : role/Role.cpp.i
+
+role/Role.s: role/Role.cpp.s
+.PHONY : role/Role.s
+
+# target to generate assembly for a file
+role/Role.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.s
+.PHONY : role/Role.cpp.s
+
+role/Role1.obj: role/Role1.cpp.obj
+.PHONY : role/Role1.obj
+
+# target to build an object file
+role/Role1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj
+.PHONY : role/Role1.cpp.obj
+
+role/Role1.i: role/Role1.cpp.i
+.PHONY : role/Role1.i
+
+# target to preprocess a source file
+role/Role1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.i
+.PHONY : role/Role1.cpp.i
+
+role/Role1.s: role/Role1.cpp.s
+.PHONY : role/Role1.s
+
+# target to generate assembly for a file
+role/Role1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.s
+.PHONY : role/Role1.cpp.s
+
+role/Role2.obj: role/Role2.cpp.obj
+.PHONY : role/Role2.obj
+
+# target to build an object file
+role/Role2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj
+.PHONY : role/Role2.cpp.obj
+
+role/Role2.i: role/Role2.cpp.i
+.PHONY : role/Role2.i
+
+# target to preprocess a source file
+role/Role2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.i
+.PHONY : role/Role2.cpp.i
+
+role/Role2.s: role/Role2.cpp.s
+.PHONY : role/Role2.s
+
+# target to generate assembly for a file
+role/Role2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/build.make CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.s
+.PHONY : role/Role2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1362,6 +1698,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2024_I2P2_TowerDefense_with_answer"
+	@echo "... Bomb/Bomb.obj"
+	@echo "... Bomb/Bomb.i"
+	@echo "... Bomb/Bomb.s"
+	@echo "... Bomb/Bomb1.obj"
+	@echo "... Bomb/Bomb1.i"
+	@echo "... Bomb/Bomb1.s"
 	@echo "... Bullet/Bullet.obj"
 	@echo "... Bullet/Bullet.i"
 	@echo "... Bullet/Bullet.s"
@@ -1428,6 +1770,24 @@ help:
 	@echo "... Engine/Sprite.obj"
 	@echo "... Engine/Sprite.i"
 	@echo "... Engine/Sprite.s"
+	@echo "... Instrument/Box.obj"
+	@echo "... Instrument/Box.i"
+	@echo "... Instrument/Box.s"
+	@echo "... Instrument/Bubble.obj"
+	@echo "... Instrument/Bubble.i"
+	@echo "... Instrument/Bubble.s"
+	@echo "... Instrument/Firearm.obj"
+	@echo "... Instrument/Firearm.i"
+	@echo "... Instrument/Firearm.s"
+	@echo "... Instrument/Hammer.obj"
+	@echo "... Instrument/Hammer.i"
+	@echo "... Instrument/Hammer.s"
+	@echo "... Instrument/Instrument.obj"
+	@echo "... Instrument/Instrument.i"
+	@echo "... Instrument/Instrument.s"
+	@echo "... Instrument/ToolBomb.obj"
+	@echo "... Instrument/ToolBomb.i"
+	@echo "... Instrument/ToolBomb.s"
 	@echo "... Plant/ApplePlant.obj"
 	@echo "... Plant/ApplePlant.i"
 	@echo "... Plant/ApplePlant.s"
@@ -1455,12 +1815,21 @@ help:
 	@echo "... Scene/LoseScene.obj"
 	@echo "... Scene/LoseScene.i"
 	@echo "... Scene/LoseScene.s"
+	@echo "... Scene/OurGameScene.obj"
+	@echo "... Scene/OurGameScene.i"
+	@echo "... Scene/OurGameScene.s"
 	@echo "... Scene/PlayScene.obj"
 	@echo "... Scene/PlayScene.i"
 	@echo "... Scene/PlayScene.s"
+	@echo "... Scene/PotionStoreScene.obj"
+	@echo "... Scene/PotionStoreScene.i"
+	@echo "... Scene/PotionStoreScene.s"
 	@echo "... Scene/ScoreboardScene.obj"
 	@echo "... Scene/ScoreboardScene.i"
 	@echo "... Scene/ScoreboardScene.s"
+	@echo "... Scene/SeedStoreScene.obj"
+	@echo "... Scene/SeedStoreScene.i"
+	@echo "... Scene/SeedStoreScene.s"
 	@echo "... Scene/SettingsScene.obj"
 	@echo "... Scene/SettingsScene.i"
 	@echo "... Scene/SettingsScene.s"
@@ -1515,6 +1884,15 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... role/Role.obj"
+	@echo "... role/Role.i"
+	@echo "... role/Role.s"
+	@echo "... role/Role1.obj"
+	@echo "... role/Role1.i"
+	@echo "... role/Role1.s"
+	@echo "... role/Role2.obj"
+	@echo "... role/Role2.i"
+	@echo "... role/Role2.s"
 .PHONY : help
 
 

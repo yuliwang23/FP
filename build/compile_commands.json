@@ -241,6 +241,12 @@
 },
 {
   "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/OurGameScene.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/OurGameScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
   "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/MyEnemy.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Enemy/MyEnemy.cpp",
   "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Enemy/MyEnemy.cpp",
   "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/MyEnemy.cpp.obj"
@@ -256,6 +262,84 @@
   "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MyBullet.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bullet/MyBullet.cpp",
   "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bullet/MyBullet.cpp",
   "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MyBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role1.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role1.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role2.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role2.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb1.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb1.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Box.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Box.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Firearm.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Firearm.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Bubble.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Bubble.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Hammer.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Hammer.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Documents/FP/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj -c C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.cpp",
+  "file": "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj"
 },
 {
   "directory": "C:/Users/ASUS/Documents/FP/build",

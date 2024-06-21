@@ -236,4 +236,22 @@ CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.obj: \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SettingsScene.hpp \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/ScoreboardScene.hpp \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/FarmSelectScene.hpp \
- C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/FarmScene.hpp
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/FarmScene.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/OurGameScene.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Sprite.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/UI/Component/Image.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/IObject.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role1.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role2.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Box.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Firearm.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Bubble.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Hammer.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.h \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.h

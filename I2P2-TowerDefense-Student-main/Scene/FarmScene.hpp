@@ -19,6 +19,14 @@ namespace Engine {
 
 class FarmScene final : public Engine::IScene {
 private:
+	//ALLEGRO_SAMPLE_ID bgmId;
+	//std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE> deathBGMInstance;
+protected:
+	//int lives;
+	//int money;
+	//int SpeedMult;
+	
+public:
 	enum TileType {
 		TILE_DIRT,
 		TILE_WHEAT,
@@ -26,13 +34,6 @@ private:
         TILE_APPLE, 
         TILE_FLOWER
 	};
-	//ALLEGRO_SAMPLE_ID bgmId;
-	//std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE> deathBGMInstance;
-protected:
-	//int lives;
-	//int money;
-	//int SpeedMult;
-public:
 	static const std::vector<Engine::Point> directions;
 	static const int FieldWidth, FieldHeight;
 	static const int MapWidth, MapHeight;
@@ -41,7 +42,7 @@ public:
 	static const Engine::Point EndGridPoint;
 	int FieldId;
 	float ticks;
-	float deathCountDown;
+	//float deathCountDown;
 	// Map tiles.
 	Group* TileFieldGroup;
 	Group* GroundEffectGroup;
@@ -55,7 +56,8 @@ public:
 	Plant* preview;
 	std::vector<std::vector<TileType>> fieldState;
 	std::vector<std::vector<int>> mapDistance;
-	std::list<float> timeData;
+	std::vector<float> timeData;
+	std::vector<float> timer;
 	//std::list<int> keyStrokes;
 	static Engine::Point GetClientSize();
 	explicit FarmScene() = default;

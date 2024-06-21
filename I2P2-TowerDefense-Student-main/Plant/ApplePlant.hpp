@@ -6,6 +6,5 @@ class ApplePlant: public Plant {
 public:
 	static const int HarvestTime;
     ApplePlant(float x, float y);
-	void CreateBullet() override;
 };
 #endif // APPLEPLANT_HPP

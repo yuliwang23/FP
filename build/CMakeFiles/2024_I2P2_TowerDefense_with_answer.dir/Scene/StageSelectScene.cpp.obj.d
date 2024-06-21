@@ -214,6 +214,20 @@ CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StageSelectScene.cpp.obj
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/UI/Component/Slider.hpp \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/UI/Component/Image.hpp \
  C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/StageSelectScene.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/OurGameScene.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Sprite.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role1.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role2.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Box.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Firearm.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Bubble.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Hammer.hpp \
+ C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.hpp \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \

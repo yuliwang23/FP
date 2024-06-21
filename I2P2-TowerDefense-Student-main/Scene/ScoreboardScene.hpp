@@ -1,5 +1,5 @@
 #ifndef SCOREBOARDSCENE_HPP
-#define SCOREBOARDSCENED_HPP
+#define SCOREBOARDSCENE_HPP
 #include <allegro5/allegro_audio.h>
 #include <memory>
 #include "Engine/IScene.hpp"

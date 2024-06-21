@@ -10,16 +10,7 @@
 
 const int FlowerPlant::HarvestTime = 60; // 60 seconds
 FlowerPlant::FlowerPlant(float x, float y) :
-	Plant("play/tower-base.png", "farm/flower.png", x, y, 200, HarvestTime, 0.5) {
+	Plant("play/tower-base.png", "farm/flower.png", x, y, 200, 0.5, HarvestTime) {
 	// Move center downward, since we the turret head is slightly biased upward.
 	Anchor.y += 8.0f / GetBitmapHeight();
-}
-
-void FlowerPlant::CreateBullet() {
-	/*Engine::Point diff = Engine::Point(cos(Rotation - ALLEGRO_PI / 2), sin(Rotation - ALLEGRO_PI / 2));
-	float rotation = atan2(diff.y, diff.x);
-	Engine::Point normalized = diff.Normalize();
-	// Change bullet position to the front of the gun barrel.
-	getPlayScene()->BulletGroup->AddNewObject(new FireBullet(Position + normalized * 36, diff, rotation, this));
-	AudioHelper::PlayAudio("gun.wav");*/
 }

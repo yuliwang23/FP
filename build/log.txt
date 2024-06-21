@@ -17,48 +17,5 @@
 [INFO] Changed to stage-select scene
 [INFO] stopped audio (sample)
 [INFO] Changed to farm-select scene
-[INFO] Loaded Resource<image>: Resource/images/farm/grass.png scaled to 64x64
-[INFO] Loaded Resource<image>: Resource/images/farm/soil.png scaled to 64x64
-[INFO] Loaded Resource<image>: Resource/images/farm/flower.png scaled to 64x64
-[INFO] Loaded Resource<image>: Resource/images/play/sand.png scaled to 320x832
-[INFO] Loaded Resource<image>: Resource/images/play/tower-base.png
-[INFO] Loaded Resource<image>: Resource/images/farm/wheat.png
-[INFO] Loaded Resource<image>: Resource/images/play/floor.png
-[INFO] Loaded Resource<image>: Resource/images/play/dirt.png
-[INFO] Loaded Resource<image>: Resource/images/farm/vegetable.png
-[INFO] Loaded Resource<image>: Resource/images/farm/apple.png
-[INFO] Loaded Resource<image>: Resource/images/farm/flower.png
-[INFO] Loaded Resource<image>: Resource/images/play/target.png
-[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 38
-[INFO] Loaded Resource<image>: Resource/images/stage-select/dirt.png scaled to 260x90
-[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 46
-[INFO] Changed to farm scene
-[INFO] Changed to farm-select scene
-[INFO] Changed to start scene
-[INFO] Game Terminating...
-[INFO] Game terminated
-[INFO] Game end
-[INFO] Destroyed Resource<image>: farm/grass.png?64x64
-[INFO] Destroyed Resource<image>: farm/apple.png
-[INFO] Destroyed Resource<image>: stage-select/dirt.png
-[INFO] Destroyed Resource<image>: farm/soil.png?64x64
-[INFO] Destroyed Resource<image>: icon.png
-[INFO] Destroyed Resource<image>: stage-select/dirt.png?260x90
-[INFO] Destroyed Resource<image>: stage-select/dirt.png?400x100
-[INFO] Destroyed Resource<image>: play/dirt.png
-[INFO] Destroyed Resource<image>: farm/flower.png
-[INFO] Destroyed Resource<image>: farm/flower.png?64x64
-[INFO] Destroyed Resource<image>: farm/wheat.png
-[INFO] Destroyed Resource<image>: play/sand.png?320x832
-[INFO] Destroyed Resource<image>: stage-select/floor.png
-[INFO] Destroyed Resource<image>: play/target.png
-[INFO] Destroyed Resource<image>: play/tower-base.png
-[INFO] Destroyed Resource<image>: play/floor.png
-[INFO] Destroyed Resource<image>: farm/vegetable.png
-[INFO] Destroyed Resource<font>: pirulen.ttf?46
-[INFO] Destroyed Resource<font>: pirulen.ttf?36
-[INFO] Destroyed Resource<font>: pirulen.ttf?120
-[INFO] Destroyed Resource<font>: pirulen.ttf?38
-[INFO] Destroyed Resource<font>: pirulen.ttf?48
-[INFO] Destroyed<sample_instance>: select.ogg
-[INFO] Destroyed Resource<audio>: select.ogg
+[INFO] Loaded Resource<image>: Resource/images/farm/grass.png scaled to 192x192
+[INFO] Loaded Resource<image>: Resource/images/farm/soil.png scaled to 192x192

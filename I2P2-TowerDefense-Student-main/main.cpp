@@ -13,6 +13,9 @@
 
 #include "Scene/FarmSelectScene.hpp"
 #include "Scene/FarmScene.hpp"
+#include "Scene/OurGameScene.hpp"
+#include "Scene/PotionStoreScene.h"
+#include "Scene/SeedStoreScene.h"
 
 int main(int argc, char **argv) {
 	Engine::LOG::SetConfig(true);
@@ -30,7 +33,11 @@ int main(int argc, char **argv) {
 	// Yuli
 	game.AddNewScene("farm-select", new FarmSelectScene());
 	game.AddNewScene("farm", new FarmScene());
-	//game.AddNewScene("farmplayer2", new FarmPlayer2Scene());
+	game.AddNewScene("ourgame-scene",new OurGameScene());
+
+	game.AddNewScene("potion-store",new PotionStoreScene());
+	game.AddNewScene("seed-store",new SeedStoreScene());
+	
 
 	game.Start("start", 60, 1600, 832);
 	return 0;

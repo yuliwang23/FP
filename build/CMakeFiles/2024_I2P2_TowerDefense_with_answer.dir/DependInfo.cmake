@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bomb/Bomb1.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bullet/Bullet.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/Bullet.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/Bullet.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bullet/FireBullet.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/FireBullet.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/FireBullet.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Bullet/LaserBullet.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/LaserBullet.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/LaserBullet.cpp.obj.d"
@@ -30,6 +32,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Point.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Point.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Point.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Resources.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Resources.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Resources.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Engine/Sprite.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Sprite.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Sprite.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Box.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Bubble.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Firearm.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Hammer.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/Instrument.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Plant/ApplePlant.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/ApplePlant.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/ApplePlant.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Plant/FlowerPlant.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/FlowerPlant.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/FlowerPlant.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Plant/Plant.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/Plant.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/Plant.cpp.obj.d"
@@ -39,8 +47,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/FarmScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/FarmSelectScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmSelectScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmSelectScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/LoseScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/LoseScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/LoseScene.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/OurGameScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PlayScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PlayScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PlayScene.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/ScoreboardScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/ScoreboardScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/ScoreboardScene.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/SettingsScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SettingsScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SettingsScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/StageSelectScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StageSelectScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StageSelectScene.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/Scene/StartScene.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StartScene.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StartScene.cpp.obj.d"
@@ -59,6 +70,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/UI/Component/Label.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Label.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Label.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/UI/Component/Slider.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Slider.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Slider.cpp.obj.d"
   "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/main.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role1.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj.d"
+  "C:/Users/ASUS/Documents/FP/I2P2-TowerDefense-Student-main/role/Role2.cpp" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj" "gcc" "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

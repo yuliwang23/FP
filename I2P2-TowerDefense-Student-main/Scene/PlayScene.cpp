@@ -31,6 +31,7 @@ using namespace std;
 #include "Enemy/MyEnemy.hpp"
 // Yu end
 
+
 bool PlayScene::DebugMode = false;
 const std::vector<Engine::Point> PlayScene::directions = { Engine::Point(-1, 0), Engine::Point(0, -1), Engine::Point(1, 0), Engine::Point(0, 1) };
 const int PlayScene::MapWidth = 20, PlayScene::MapHeight = 13;
@@ -87,6 +88,8 @@ void PlayScene::Terminate() {
 	IScene::Terminate();
 }
 void PlayScene::Update(float deltaTime) {
+	IScene::Update(deltaTime);
+	cout << "deltaTime: " << deltaTime << endl;
 	// If we use deltaTime directly, then we might have Bullet-through-paper problem.
 	// Reference: Bullet-Through-Paper
 	if (SpeedMult == 0)
@@ -239,7 +242,7 @@ void PlayScene::OnMouseUp(int button, int mx, int my) {
 			if (!CheckSpaceValid(x, y)) {
 				Engine::Sprite* sprite;
 				GroundEffectGroup->AddNewObject(sprite = new DirtyEffect("play/target-invalid.png", 1, x * BlockSize + BlockSize / 2, y * BlockSize + BlockSize / 2));
-				sprite->Rotation = 0;
+				//sprite->Rotation = 0;
 				return;
 			}
 			// Purchase.

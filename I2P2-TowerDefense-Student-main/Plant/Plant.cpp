@@ -11,76 +11,51 @@
 #include "Plant/Plant.hpp"
 #include "Scene/FarmScene.hpp"
 
+#include <iostream>
+using namespace std;
+
+bool harvest = false;
+
 FarmScene* Plant::getFarmScene() {
 	return dynamic_cast<FarmScene*>(Engine::GameEngine::GetInstance().GetActiveScene());
 }
-Plant::Plant(std::string imgBase, std::string imgPlant, float x, float y, float radius, int price, float coolDown) :
-	Sprite(imgPlant, x, y), harvestTime(harvestTime), coolDown(coolDown), imgBase(imgBase, x, y) {
+Plant::Plant(std::string imgBase, std::string imgPlant, float x, float y, int price, float coolDown, float harvestTime) :
+	Sprite(imgPlant, x, y), coolDown(coolDown), imgBase(imgBase, x, y), harvestTime(harvestTime) {
 	//CollisionRadius = radius;
 }
 void Plant::Update(float deltaTime) {
-	/*Sprite::Update(deltaTime);
+	Sprite::Update(deltaTime);
 	FarmScene* scene = getFarmScene();
 	imgBase.Position = Position;
+	cout << "Position.x: " << Position.x << "Position.y: " << Position.y << endl;
 	imgBase.Tint = Tint;
 	if (!Enabled)
 		return;
-	if (Target) {
-		Engine::Point diff = Target->Position - Position;
-		if (diff.Magnitude() > CollisionRadius) {
-			Target->lockedTurrets.erase(lockedTurretIterator);
-			Target = nullptr;
-			lockedTurretIterator = std::list<Turret*>::iterator();
-		}
+
+	harvestTimer += deltaTime;
+	if (harvestTimer >= harvestTime) {
+		Harvest();
+		harvestTimer = 0.0;
 	}
-	if (!Target) {
-		// Lock first seen target.
-		// Can be improved by Spatial Hash, Quad Tree, ...
-		// However simply loop through all enemies is enough for this program.
-		for (auto& it : scene->EnemyGroup->GetObjects()) {
-			Engine::Point diff = it->Position - Position;
-			if (diff.Magnitude() <= CollisionRadius) {
-				Target = dynamic_cast<Enemy*>(it);
-				Target->lockedTurrets.push_back(this);
-				lockedTurretIterator = std::prev(Target->lockedTurrets.end());
-				break;
-			}
-		}
-	}
-	if (Target) {
-		Engine::Point originRotation = Engine::Point(cos(Rotation - ALLEGRO_PI / 2), sin(Rotation - ALLEGRO_PI / 2));
-		Engine::Point targetRotation = (Target->Position - Position).Normalize();
-		float maxRotateRadian = rotateRadian * deltaTime;
-		float cosTheta = originRotation.Dot(targetRotation);
-		// Might have floating-point precision error.
-		if (cosTheta > 1) cosTheta = 1;
-		else if (cosTheta < -1) cosTheta = -1;
-		float radian = acos(cosTheta);
-		Engine::Point rotation;
-		if (abs(radian) <= maxRotateRadian)
-			rotation = targetRotation;
-		else
-			rotation = ((abs(radian) - maxRotateRadian) * originRotation + maxRotateRadian * targetRotation) / radian;
-		// Add 90 degrees (PI/2 radian), since we assume the image is oriented upward.
-		Rotation = atan2(rotation.y, rotation.x) + ALLEGRO_PI / 2;
-		// Shoot reload.
-		reload -= deltaTime;
-		if (reload <= 0) {
-			// shoot.
-			reload = coolDown;
-			CreateBullet();
-		}
-	}*/
 }
 void Plant::Draw() const {
-	if (Preview) {
+	/*if (Preview) {
 		al_draw_filled_circle(Position.x, Position.y, CollisionRadius, al_map_rgba(0, 255, 0, 50));
-	}
-	imgBase.Draw();
+	}*/
+	//imgBase.Draw();
 	Sprite::Draw();
 	//al_draw_circle(Position.x, Position.y, CollisionRadius, al_map_rgb(0, 0, 255), 2);}
 }
-int Plant::GetHarvestTime() const {
-	return harvestTime;
+
+void Plant::Harvest() {
+	FarmScene* scene = getFarmScene();
+	/*if (scene) {
+		scene->EarnMoney(price);
+	}*/
+	harvest = true;
+}
+
+int Plant::getPrice() {
+	return price;
 }
 
