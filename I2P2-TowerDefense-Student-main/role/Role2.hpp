@@ -12,6 +12,7 @@ public:
     static int frameIndex;
     static int dir;
     static bool change;
+    int speedMult=1;
     void SetDir(int i);
     int ReturnDir() override;
     Role2(int x, int y);

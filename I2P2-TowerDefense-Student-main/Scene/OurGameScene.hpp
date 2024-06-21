@@ -52,7 +52,8 @@ private:
 protected:
     int SpeedMult;
 public:
-    static float timer;
+    static float timer1;
+    static float timer2;
     static bool DebugMode;
     static const std::vector<Engine::Point> directions;
     static const int MapWidth, MapHeight;
@@ -106,6 +107,8 @@ public:
     void CheckDie(int i,int j);
     void firearmEffect(int x,int y,Role* r);
     void hammerEffect(int x,int y,Role* r);
+    void SetRole1();
+    void SetRole2();
     // void ModifyReadMapTiles();
 };
 

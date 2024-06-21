@@ -54,21 +54,21 @@ void PotionStoreScene::Initialize() {
     //player1
     if(money1>=200) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 1 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 1, 200, 0));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 1 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$200", "pirulen.ttf", 24, halfW* 1 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
 
     if(money1>=150) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 3 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 1, 150, 1));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 3 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$150", "pirulen.ttf", 24, halfW* 3 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
 
     if(money1>=150) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 5 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 1, 150, 2));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 5 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$150", "pirulen.ttf", 24, halfW* 5 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
@@ -76,21 +76,21 @@ void PotionStoreScene::Initialize() {
     //player2
     if(money2>=200) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 9 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 2, 200, 0));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 9 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$200", "pirulen.ttf", 24, halfW* 9 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
 
     if(money2>=150) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 11 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 2, 150, 1));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 11 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$150", "pirulen.ttf", 24, halfW* 11 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
 
     if(money2>=150) {
         btn = new Engine::ImageButton("Potion/dirt.png", "Potion/floor.png", halfW * 13 / 7 - 75, halfH+200-25, 150, 50);
-        btn->SetOnClickCallback(std::bind(&PotionStoreScene::NextOnClick, this, 2));
+        btn->SetOnClickCallback(std::bind(&PotionStoreScene::BuyOnClick, this, 2, 150, 2));
         AddNewControlObject(btn);
     }else AddNewObject(new Engine::Image("Potion/gray.png", halfW * 13 / 7 - 75, halfH+200-25, 150, 50));
     AddNewObject(new Engine::Label("$150", "pirulen.ttf", 24, halfW* 13 / 7, halfH+200, 0, 0, 0, 255, 0.5, 0.5));
@@ -102,11 +102,25 @@ void PotionStoreScene::Initialize() {
 }
 
 void PotionStoreScene::NextOnClick(int stage) {
-    Engine::GameEngine::GetInstance().ChangeScene("play");
+    Engine::GameEngine::GetInstance().ChangeScene("ourgame-scene");
 }
 
-void PotionStoreScene::BuyOnClick(int player, int money) {
-
+void PotionStoreScene::BuyOnClick(int player, int money, int potion) {
+    if(player==1) money1-= money;
+    else money2 -= money;
+    //Engine::LOG(Engine::DEBUGGING) << money1 << money2;
+    table[player][potion]++;
+    //Engine::LOG(Engine::DEBUGGING) <<"num1 "<< table[1][0];
+    //Engine::LOG(Engine::DEBUGGING) <<"num1 "<<table[2][0];
+    std::string filename = std::string("../Resource/money.txt");
+    std::ofstream outfile(filename, std::ios::trunc);
+    outfile << std::to_string(money1) + " " + std::to_string(money2)  << std::endl;
+    outfile.flush();
+    outfile.close();
+    Engine::GameEngine::GetInstance().ChangeScene("potion-store");
 }
 
+int PotionStoreScene::GetPotionNumber(int player, int potion) const{
+    return table[player][potion];
+}
 

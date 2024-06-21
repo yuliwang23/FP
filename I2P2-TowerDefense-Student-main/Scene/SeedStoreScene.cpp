@@ -115,7 +115,7 @@ void SeedStoreScene::Initialize() {
 }
 
 void SeedStoreScene::NextOnClick(int stage) {
-    Engine::GameEngine::GetInstance().ChangeScene("farm");
+    Engine::GameEngine::GetInstance().ChangeScene("farm-select");
 }
 
 void SeedStoreScene::BuyOnClick(int player, int money) {
@@ -136,7 +136,7 @@ void SeedStoreScene::BuyOnClick(int player, int money) {
             table[player][3]++;
         break;
     }
-    //Engine::LOG(Engine::DEBUGGING) <<"num1 "<< table[1][0];
+    Engine::LOG(Engine::DEBUGGING) <<"num1 "<< table[1][0];
     Engine::LOG(Engine::DEBUGGING) <<"num1 "<<table[2][0];
     std::string filename = std::string("../Resource/money.txt");
     std::ofstream outfile(filename, std::ios::trunc);
@@ -148,4 +148,10 @@ void SeedStoreScene::BuyOnClick(int player, int money) {
 
 int SeedStoreScene::GetSeedNumber(int player, int seed) {
     return table[player][seed];
+}
+
+int SeedStoreScene::CostMoney(int player, int seed){
+    std::cout<<"here"<<std::endl;
+    table[player][seed]--;
+    std::cout<<table[player][0]<<std::endl;
 }

@@ -1,9 +1,6 @@
-//
-// Created by IRIS0817 on 2024/6/11.
-//
-#include <random>
 #include <allegro5/allegro.h>
 #include <algorithm>
+#include <random>
 #include <cmath>
 #include <fstream>
 #include <functional>
@@ -27,6 +24,7 @@
 #include "Turret/MissileTurret.hpp"
 #include "UI/Animation/Plane.hpp"
 #include "Scene/OurGameScene.hpp"
+#include "Scene/PotionStoreScene.h"
 #include "Engine/Resources.hpp"
 #include "Turret/TurretButton.hpp"
 #include "Engine/IScene.hpp"
@@ -43,7 +41,8 @@
 #include "Instrument/Hammer.hpp"
 #include "Instrument/ToolBomb.hpp"
 
-float OurGameScene::timer=0;
+float OurGameScene::timer1=0;
+float OurGameScene::timer2=0;
 Box* OurGameScene::mapBox[25][13];
 Firearm* OurGameScene::mapFirearm[25][13];
 Bubble* OurGameScene::mapBubble[25][13];
@@ -61,6 +60,11 @@ const std::vector<int> OurGameScene::code = { ALLEGRO_KEY_UP, ALLEGRO_KEY_UP, AL
 Engine::Point OurGameScene::GetClientSize() {
     return Engine::Point(MapWidth * BlockSize, MapHeight * BlockSize);
 }
+
+PotionStoreScene* getPotionScene() {
+    return dynamic_cast<PotionStoreScene*>(Engine::GameEngine::GetInstance().GetScene("potion-store"));
+}
+
 void OurGameScene::Initialize() {
     std::cout<<"to ourgame initialize\n";
     // TODO: [HACKATHON-3-BUG] (1/5): There's a bug in this file, which crashes the game when you lose. Try to find it.
@@ -70,7 +74,7 @@ void OurGameScene::Initialize() {
     keyStrokes.clear();
     ticks = 0;
     deathCountDown = -1;
-    SpeedMult = 1;
+    //SpeedMult = 1;
     // Add groups from bottom to top.
     AddNewObject(TileMapGroup = new Group());
     AddNewObject(GroundEffectGroup = new Group());
@@ -101,9 +105,28 @@ void OurGameScene::Initialize() {
     //add new role
     role1 = new Role1(1 * BlockSize, 1 * BlockSize);
     RoleGroup->AddNewObject(role1);
+    SetRole1();
     //add new role
     role2 = new Role2(23 * BlockSize, 11 * BlockSize);
     RoleGroup->AddNewObject(role2);
+    SetRole2();
+
+}
+void OurGameScene::SetRole1(){
+    if(getPotionScene()->GetPotionNumber(1,1)>0){
+        int T=getPotionScene()->GetPotionNumber(1,1);
+        while(T--){
+            role1->speedMult*=2;
+        }
+    }
+}
+void OurGameScene::SetRole2(){
+    if(getPotionScene()->GetPotionNumber(2,1)>0){
+        int T=getPotionScene()->GetPotionNumber(2,1);
+        while(T--){
+            role2->speedMult*=2;
+        }
+    }
 }
 void OurGameScene::Terminate() {
     AudioHelper::StopBGM(bgmId);
@@ -136,9 +159,10 @@ void OurGameScene::Update(float deltaTime) {
     // Update roles
     role1->Update(deltaTime);
     role2->Update(deltaTime);
-    timer+=deltaTime*SpeedMult;
+    timer1+=deltaTime*(role1->speedMult);
+    timer2+=deltaTime*(role2->speedMult);
     // Continuous key handling for role1
-    if(timer>=0.3) {
+    if(timer1>=0.3) {
         if (keys[ALLEGRO_KEY_UP]) {
             int newX = role1->Position.x;
             int newY = role1->Position.y - BlockSize/4;
@@ -179,7 +203,9 @@ void OurGameScene::Update(float deltaTime) {
                 TakeTool(role1);
             }
         }
-
+        timer1=0;
+    }
+    if(timer2>=0.3){
         // Continuous key handling for role2
         if (keys[ALLEGRO_KEY_W]) {
             int newX = role2->Position.x;
@@ -221,8 +247,9 @@ void OurGameScene::Update(float deltaTime) {
                 TakeTool(role2);
             }
         }
-        timer=0;
+        timer2=0;
     }
+
 }
 void OurGameScene::OnKeyDown(int keyCode) {
     keys[keyCode] = true;

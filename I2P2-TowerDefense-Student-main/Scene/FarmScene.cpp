@@ -23,6 +23,8 @@
 #include "Plant/ApplePlant.hpp"
 #include "Plant/FlowerPlant.hpp"
 #include "Plant/SicklePlant.hpp"
+#include "Scene/SeedStoreScene.h"
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -34,6 +36,10 @@ const int FarmScene::BlockSize = 64;
 const Engine::Point FarmScene::EndGridPoint = Engine::Point(FieldWidth, FieldHeight - 1);
 Engine::Point FarmScene::GetClientSize() {
 	return Engine::Point(FieldWidth * BlockSize, FieldHeight * BlockSize);
+}
+
+SeedStoreScene* getSeedScene() {
+    return dynamic_cast<SeedStoreScene*>(Engine::GameEngine::GetInstance().GetScene("seed-store"));
 }
 
 void FarmScene::Initialize() {
@@ -94,7 +100,7 @@ void FarmScene::Update(float deltaTime) {
 void FarmScene::BackOnClick() {
 	WritetoField();
 	//WritetoTime();
-	Engine::GameEngine::GetInstance().ChangeScene("farm-select");
+	Engine::GameEngine::GetInstance().ChangeScene("stage-select");
 }
 
 void FarmScene::WritetoField() {
@@ -342,16 +348,17 @@ void FarmScene::UIBtnClicked(int id) {
 	if (preview)
 		UIGroup->RemoveObject(preview->GetObjectIterator());
     // TODO: [CUSTOM-TURRET]: On callback, create the turret.
-	if (id == 0/* && wheat seed > 0*/) {
+	cout<<"here "<<getSeedScene()->GetSeedNumber(FieldId, 0);
+	if (id == 0 && getSeedScene()->GetSeedNumber(FieldId, 0) > 0) {
 		preview = new WheatPlant(0, 0);
 		preview->state = 1;
-	} else if (id == 1/* && vegetable seed > 0*/) {
+	} else if (id == 1 && getSeedScene()->GetSeedNumber(FieldId, 1) > 0) {
 		preview = new VegetablePlant(0, 0);
 		preview->state = 2;
-	} else if (id == 2 /*&& apple seed > 0*/){
+	} else if (id == 2 && getSeedScene()->GetSeedNumber(FieldId, 2) > 0){
 		preview = new ApplePlant(0, 0);
 		preview->state = 3;
-	} else if (id == 3 /*&& flower seed > 0*/) {
+	} else if (id == 3 && getSeedScene()->GetSeedNumber(FieldId, 3) > 0) {
 		preview = new FlowerPlant(0, 0);
 		preview->state = 4;
 	} else if (id == 4) {
@@ -442,14 +449,33 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 			PlantGroup->AddNewObject(preview);
 			// To keep responding when paused.
 			preview->Update(0);
-			cout << "Position.x: " << preview->Position.x << " Position.y: " << preview->Position.y << endl;
 
+			cout << "Position.x: " << preview->Position.x << " Position.y: " << preview->Position.y << endl;
 			// add new crop's fieldstate
 			switch (preview->state) {
-				case 1: fieldState[y - 5][x - 9] = TILE_WHEAT; break;
-				case 2: fieldState[y - 5][x - 9] = TILE_VEGETABLE; break;
-				case 3: fieldState[y - 5][x - 9] = TILE_APPLE; break;
-				case 4: fieldState[y - 5][x - 9] = TILE_FLOWER;	break;
+				case 1: {
+					
+					fieldState[y - 5][x - 9] = TILE_WHEAT;
+					cout << "!!!!!!!!" << endl;
+					getSeedScene()->CostMoney(FieldId, 0);
+					cout << "!000" << endl;
+					break;
+				}
+				case 2: {
+					fieldState[y - 5][x - 9] = TILE_VEGETABLE;
+					getSeedScene()->CostMoney(FieldId, 1);
+					break;
+				}
+				case 3: {
+					fieldState[y - 5][x - 9] = TILE_APPLE;
+					getSeedScene()->CostMoney(FieldId, 2);
+					break;
+				}
+				case 4: {
+					fieldState[y - 5][x - 9] = TILE_FLOWER;
+					getSeedScene()->CostMoney(FieldId, 3);
+					break;
+				}
 			}
 
 			// Remove Preview.

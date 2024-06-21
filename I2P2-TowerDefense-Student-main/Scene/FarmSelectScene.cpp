@@ -45,7 +45,7 @@ void FarmSelectScene::Terminate() {
 	IScene::Terminate();
 }
 void FarmSelectScene::BackOnClick(int player) {
-    Engine::GameEngine::GetInstance().ChangeScene("start");
+    Engine::GameEngine::GetInstance().ChangeScene("stage-select");
 }
 void FarmSelectScene::PlayerOnClick(int player) {
     FarmScene* scene = dynamic_cast<FarmScene*>(Engine::GameEngine::GetInstance().GetScene("farm"));
