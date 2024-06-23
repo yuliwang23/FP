@@ -150,8 +150,6 @@ int SeedStoreScene::GetSeedNumber(int player, int seed) {
     return table[player][seed];
 }
 
-int SeedStoreScene::CostMoney(int player, int seed){
-    std::cout<<"here"<<std::endl;
+void SeedStoreScene::CostMoney(int player, int seed){
     table[player][seed]--;
-    std::cout<<table[player][0]<<std::endl;
 }

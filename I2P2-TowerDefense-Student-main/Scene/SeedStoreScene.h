@@ -26,7 +26,7 @@ public:
     //void OnMouseUp(int button, int mx, int my) override;
     void ReadMoney();//get money
     int GetSeedNumber(int player, int seed);
-    int CostMoney(int player, int seed);
+    void CostMoney(int player, int seed);
 
 };
 

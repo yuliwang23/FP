@@ -25,6 +25,7 @@
 #include "Instrument/ToolBomb.hpp"
 #include "Engine/IScene.hpp"
 #include "Engine/Point.hpp"
+#include <array>
 
 namespace Engine {
     class Group;
