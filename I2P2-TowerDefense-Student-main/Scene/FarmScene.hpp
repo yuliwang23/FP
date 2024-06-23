@@ -19,7 +19,7 @@ namespace Engine {
 
 class FarmScene final : public Engine::IScene {
 private:
-	//ALLEGRO_SAMPLE_ID bgmId;
+	ALLEGRO_SAMPLE_ID bgmId;
 	//std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE> deathBGMInstance;
 protected:
 	//int lives;

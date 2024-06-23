@@ -68,14 +68,15 @@ void FarmScene::Initialize() {
 	UIGroup->AddNewObject(imgTarget);
 
 	Engine::ImageButton* btn;
-    btn = new Engine::ImageButton("stage-select/dirt.png", "stage-select/floor.png", 1310, halfH + 270 , 260, 90);
+    btn = new Engine::ImageButton("stage-select/back.png", "stage-select/on.png", 1310, halfH + 270 , 260, 90);
     btn->SetOnClickCallback(std::bind(&FarmScene::BackOnClick, this));
     AddNewControlObject(btn);
 
     AddNewObject(new Engine::Label("Back", "pirulen.ttf", 46, 1445, halfH + 315, 0, 0, 0, 255, 0.5, 0.5));
+	bgmId = AudioHelper::PlayAudio("farm.wav");
 }
 void FarmScene::Terminate() {
-	//AudioHelper::StopBGM(bgmId);
+	AudioHelper::StopBGM(bgmId);
 	//AudioHelper::StopSample(deathBGMInstance);
 	//deathBGMInstance = std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE>();
 	IScene::Terminate();
@@ -98,6 +99,7 @@ void FarmScene::Update(float deltaTime) {
 	for (auto& it : UpGroup->GetObjects()) {
 		if (UpTime == 15) {
 			UIGroup->RemoveObject(it->GetObjectIterator());
+
 			UpTime = 0;
 		} else {
 			UpTime++;
@@ -189,7 +191,7 @@ void FarmScene::ReadTime() {
 	string time;
 
 	while(fin >> time) {
-		cout << "time: " << time << endl;
+		//cout << "time: " << time << endl;
 		ftime = std::stof(time);
 		timeData.push_back(ftime);
 	}
@@ -279,44 +281,39 @@ void FarmScene::ReadField() {
             } else if (type == '1') {
                 fieldState[i][j] = TILE_WHEAT;
 				PlantGroup->AddNewObject(new Plant("play/tower-base.png", "farm/Seed1.png", (j + 9) * BlockSize, (i + 5) * BlockSize, 10, 0.0, 10.0, getTimeData(i, j)));
-				cout << "newTimer: " << getTimeData(i, j) << endl;
+				//cout << "newTimer: " << getTimeData(i, j) << endl;
 			} else if (type == '2') {
                 fieldState[i][j] = TILE_VEGETABLE;
 				PlantGroup->AddNewObject(new Plant("play/tower-base.png", "farm/Seed2.png", (j + 9) * BlockSize, (i + 5) * BlockSize, 20, 0.0, 20.0, getTimeData(i, j)));
-				cout << "newTimer: " << getTimeData(i, j) << endl;
+				//cout << "newTimer: " << getTimeData(i, j) << endl;
 			} else if (type == '3') {
                 fieldState[i][j] = TILE_APPLE;
 				PlantGroup->AddNewObject(new Plant("play/tower-base.png", "farm/Seed3.png", (j + 9) * BlockSize, (i + 5) * BlockSize, 30, 0.0, 40.0, getTimeData(i, j)));
-				cout << "newTimer: " << getTimeData(i, j) << endl;
+				//cout << "newTimer: " << getTimeData(i, j) << endl;
 			} else if (type == '4') {
                 fieldState[i][j] = TILE_FLOWER;
 				PlantGroup->AddNewObject(new Plant("play/tower-base.png", "farm/Seed4.png", (j + 9) * BlockSize, (i + 5) * BlockSize, 100, 0.0, 60.0, getTimeData(i, j)));
-				cout << "newTimer: " << getTimeData(i, j) << endl;
+				//cout << "newTimer: " << getTimeData(i, j) << endl;
 			} else {
                 throw std::ios_base::failure("Map data is corrupted.");
             }
 		}
 	}
-	for (int i = 0; i < 3; i++) {
+	/*for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 			cout << fieldState[i][j];
 		}
 		cout << endl;
-	}
+	}*/
 	/*fieldState[i][j]
 	[0][1][2]
 	[3][4][5]
 	[6][7][8]
 	*/
-
 	for (auto& it : PlantGroup->GetObjects()) {
 		it->Position.x += 32;
 		it->Position.y += 32;
 	}
-
-	/*for(int i = 0; i < 3; i++)
-		for(int j = 0; j < 3; j++)
-			cout << "Read: " << fieldState[j][i] << "!!" << endl;*/
 }
 
 void FarmScene::ConstructUI() {  
@@ -325,7 +322,7 @@ void FarmScene::ConstructUI() {
 		AddNewObject(new Engine::Label("Player 1", "pirulen.ttf", 34, 1295, 20));
 	else
 		AddNewObject(new Engine::Label("Player 2", "pirulen.ttf", 34, 1295, 20));
-	UIGroup->AddNewObject(new Engine::Image("play/sand.png", 1280, 0, 320, 832));
+	UIGroup->AddNewObject(new Engine::Image("stage-select/background.png", 1280, 0, 320, 832));
 	UIGroup->AddNewObject(UIMoney = new Engine::Label(std::string("$") + std::to_string(GetMoney()), "pirulen.ttf", 26, 1295, 75));
 	PlantButton* btn;
 	// Button 1
@@ -376,19 +373,33 @@ void FarmScene::UIBtnClicked(int id) {
     // TODO: [CUSTOM-TURRET]: On callback, create the turret.
 	//cout<<"here "<<getSeedScene()->GetSeedNumber(FieldId, 0);
 	//cout << "f" << endl;
-	if (id == 0 && getSeedScene()->GetSeedNumber(FieldId, 0) > 0) {
-		preview = new WheatPlant(0, 0);
-		preview->state = 1;
-	} else if (id == 1 && getSeedScene()->GetSeedNumber(FieldId, 1) > 0) {
-		preview = new VegetablePlant(0, 0);
-		preview->state = 2;
+	if (id == 0) {
+		if (getSeedScene()->GetSeedNumber(FieldId, 0) > 0) {
+			preview = new WheatPlant(0, 0);
+			preview->state = 1;
+		} else {
+			AudioHelper::PlayAudio("false.wav");
+		}
+		
+	} else if (id == 1 ) {
+		if(getSeedScene()->GetSeedNumber(FieldId, 1) > 0){
+			preview = new VegetablePlant(0, 0);
+			preview->state = 2;
+		}else AudioHelper::PlayAudio("false.wav");
+		
 		//cout << "f" << endl;
-	} else if (id == 2 && getSeedScene()->GetSeedNumber(FieldId, 2) > 0){
-		preview = new ApplePlant(0, 0);
-		preview->state = 3;
-	} else if (id == 3 && getSeedScene()->GetSeedNumber(FieldId, 3) > 0) {
-		preview = new FlowerPlant(0, 0);
-		preview->state = 4;
+	} else if (id == 2){
+		if(getSeedScene()->GetSeedNumber(FieldId, 2) > 0){
+			preview = new ApplePlant(0, 0);
+			preview->state = 3;
+		}else AudioHelper::PlayAudio("false.wav");
+		
+	} else if (id == 3) {
+		if(getSeedScene()->GetSeedNumber(FieldId, 3) > 0){
+			preview = new FlowerPlant(0, 0);
+			preview->state = 4;
+		}else AudioHelper::PlayAudio("false.wav");
+		
 	} else if (id == 4) {
 		preview = new SicklePlant(0, 0);
 		preview->state = 5;
@@ -448,7 +459,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 	const int x = mx / BlockSize;
 	const int y = my / BlockSize;
 
-	cout << "xx: " << x << " yy: " << y << endl;
+	//cout << "xx: " << x << " yy: " << y << endl;
 	if (button & 1) {
 		//cout << x << " " << y << endl;
 		if (fieldState[y - 5][x - 9] == TILE_DIRT)
@@ -464,6 +475,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 				cout << "invalid" << endl;
 				Engine::Sprite* sprite;
 				GroundEffectGroup->AddNewObject(sprite = new DirtyEffect("play/target-invalid.png", 1, x * BlockSize + BlockSize / 2, y * BlockSize + BlockSize / 2));
+				
 				return;
 			}
 			// Purchase.
@@ -478,6 +490,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 			preview->Preview = false;
 			preview->Tint = al_map_rgba(255, 255, 255, 255);
 			PlantGroup->AddNewObject(preview);
+			AudioHelper::PlayAudio("planting.wav");
 			// To keep responding when paused.
 			preview->Update(0);
 
@@ -523,7 +536,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 			
 			if (preview->state != 5)
 				return;
-			cout << "!= TILE_DIRT " << y - 5 << " " << x - 9 << endl;
+			//cout << "!= TILE_DIRT " << y - 5 << " " << x - 9 << endl;
 			// 採收植物
 			for (auto& it : PlantGroup->GetObjects()) {
 				Plant* plant = dynamic_cast<Plant*>(it);
@@ -551,6 +564,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 					preview->GetObjectIterator()->first = true; // It is a eraser tool, the preview tool must be deleted after it delete the specified turret on the map
 					UIGroup->RemoveObject(preview->GetObjectIterator()); // Remove the tool object from UIGroup and also delete the object instance(memory) because we don't need the tool any more
 					// 增加金錢、更新timer
+					AudioHelper::PlayAudio("swing.wav");
 					EarnMoney(plant->getPrice());
 					plant->harvestTimer = 0.0;
 					it->GetObjectIterator()->first = true;
@@ -559,7 +573,7 @@ void FarmScene::OnMouseUp(int button, int mx, int my) {
 					// 更新植物狀態
 					fieldState[y - 5][x - 9] = TILE_DIRT;
 					break;
-				} else return;
+				}
 			}
 			OnMouseMove(mx, my);
 		}	

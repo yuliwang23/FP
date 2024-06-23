@@ -13,7 +13,7 @@ const float VegetablePlant::HarvestTime = 20.0; // 60 seconds
 VegetablePlant::VegetablePlant(float x, float y) :
 	Plant("play/tower-base.png", "farm/Seed2.png", x, y, Price, 0.0, HarvestTime, 0.0) {
 	// Move center downward, since we the turret head is slightly biased upward.
-	Anchor.y += 8.0f / GetBitmapHeight();
+	//Anchor.y += 8.0f / GetBitmapHeight();
 }
 
 int VegetablePlant::Harvest() {

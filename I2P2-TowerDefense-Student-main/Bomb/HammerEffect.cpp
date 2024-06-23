@@ -8,6 +8,7 @@
 #include <iostream>
 #include <allegro5/allegro_primitives.h>
 #include <allegro5/color.h>
+#include "Engine/AudioHelper.hpp"
 
 #include "UI/Animation/DirtyEffect.hpp"
 #include "Engine/Group.hpp"
@@ -23,6 +24,7 @@ int HammerEffect::offset=0;
 int HammerEffect::frameIndex=0;
 HammerEffect::HammerEffect(int x,int y,int t) :
         Bomb("our_game/hammereffect.png", x,y,t){
+            AudioHelper::PlayAudio("hammer.wav");
 }
 void HammerEffect::OnExplode() {
 }
@@ -41,8 +43,12 @@ void HammerEffect::Update(float deltaTime) {
     OurGameScene* scene = getPlayScene();
     if(timer<=0){
         //
+        int i=Position.y/64;
+        int j=Position.x/64;
+        scene->CheckDie(i,j);
         std::cout<<"time=0\n";
         OnExplode();
+        
         getPlayScene()->FireEffectGroup->RemoveObject(objectIterator);
         //scene->ClearBomb(Position.x,Position.y,CollisionRadius);
     }
@@ -61,7 +67,7 @@ void HammerEffect::Draw() const{
     offset = frameIndex * 64;
 
     al_draw_scaled_bitmap(bmp.get(),  0+ offset, 0, frameWidth, frameHeight,
-                          Position.x - frameWidth / 2, Position.y - frameHeight / 2,
+                          Position.x-40 - frameWidth / 2, Position.y - frameHeight / 2,
                           frameWidth-10, frameHeight-10, 0);
 
     //Sprite::Draw();

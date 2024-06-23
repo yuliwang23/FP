@@ -14,7 +14,7 @@ const float WheatPlant::HarvestTime = 10.0; // seconds
 WheatPlant::WheatPlant(float x, float y) :
 	Plant("play/tower-base.png", "farm/Seed1.png", x, y, Price, 0.0, HarvestTime, 0.0) {
 	// Move center downward, since we the turret head is slightly biased upward.
-	Anchor.y += 8.0f / GetBitmapHeight();
+	//Anchor.y += 8.0f / GetBitmapHeight();
 }
 
 int WheatPlant::Harvest() {

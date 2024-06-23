@@ -1,0 +1,422 @@
+[
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Allegro5Exception.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Allegro5Exception.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Allegro5Exception.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Allegro5Exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/AudioHelper.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/AudioHelper.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/AudioHelper.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/AudioHelper.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/Bullet.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/Bullet.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/Bullet.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/Bullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Collider.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Collider.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Collider.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Collider.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/DirtyEffect.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/DirtyEffect.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/DirtyEffect.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/DirtyEffect.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/Enemy.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/Enemy.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/Enemy.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/Enemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/ExplosionEffect.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/ExplosionEffect.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/ExplosionEffect.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/ExplosionEffect.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/FireBullet.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/FireBullet.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/FireBullet.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/FireBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/GameEngine.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/GameEngine.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/GameEngine.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/GameEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Group.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Group.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Group.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Group.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IControl.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IControl.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IControl.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IControl.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Image.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Image.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Image.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Image.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/ImageButton.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/ImageButton.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/ImageButton.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/ImageButton.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IObject.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IObject.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IObject.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IObject.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/IScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/IScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Label.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Label.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Label.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Label.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/LaserBullet.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/LaserBullet.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/LaserBullet.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/LaserBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/LaserTurret.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/LaserTurret.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/LaserTurret.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/LaserTurret.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/LOG.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/LOG.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/LOG.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/LOG.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/LoseScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/LoseScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/LoseScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/LoseScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MachineGunTurret.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MachineGunTurret.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MachineGunTurret.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MachineGunTurret.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/main.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/main.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MissileBullet.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/MissileBullet.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/MissileBullet.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MissileBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MissileTurret.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MissileTurret.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MissileTurret.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MissileTurret.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/Plane.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/Plane.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Animation/Plane.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Animation/Plane.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/PlaneEnemy.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/PlaneEnemy.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/PlaneEnemy.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/PlaneEnemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PlayScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/PlayScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/PlayScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PlayScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Point.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Point.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Point.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Point.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Resources.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Resources.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Resources.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Resources.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Slider.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Slider.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Slider.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Slider.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/SoldierEnemy.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/SoldierEnemy.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/SoldierEnemy.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/SoldierEnemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Sprite.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Sprite.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Engine/Sprite.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Engine/Sprite.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StageSelectScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/StageSelectScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/StageSelectScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StageSelectScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/TankEnemy.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/TankEnemy.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/TankEnemy.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/TankEnemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/Turret.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/Turret.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/Turret.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/Turret.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/TurretButton.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/TurretButton.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/TurretButton.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/TurretButton.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/WinScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/WinScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/WinScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/WinScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StartScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/StartScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/StartScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/StartScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SettingsScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/SettingsScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/SettingsScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SettingsScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/ScoreboardScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/ScoreboardScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/ScoreboardScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/ScoreboardScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/MyEnemy.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/MyEnemy.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Enemy/MyEnemy.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Enemy/MyEnemy.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MyTurret.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MyTurret.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Turret/MyTurret.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Turret/MyTurret.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MyBullet.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/MyBullet.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bullet/MyBullet.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bullet/MyBullet.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/FireEffect.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/FireEffect.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/FireEffect.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/FireEffect.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/HammerEffect.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/HammerEffect.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/HammerEffect.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/HammerEffect.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/FirearmEffect.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/FirearmEffect.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/FirearmEffect.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/FirearmEffect.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/FarmScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/FarmScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmSelectScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/FarmSelectScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/FarmSelectScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/FarmSelectScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/Plant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/Plant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/Plant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/Plant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/PlantButton.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/PlantButton.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/PlantButton.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/PlantButton.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/WheatPlant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/WheatPlant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/WheatPlant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/WheatPlant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/VegetablePlant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/VegetablePlant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/VegetablePlant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/VegetablePlant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/ApplePlant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/ApplePlant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/ApplePlant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/ApplePlant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/FlowerPlant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/FlowerPlant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/FlowerPlant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/FlowerPlant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/SicklePlant.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/SicklePlant.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Plant/SicklePlant.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Plant/SicklePlant.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/OurGameScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/OurGameScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/OurGameScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role1.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role1.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role1.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role2.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/role/Role2.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/role/Role2.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/Bomb.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/Bomb.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/Bomb1.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Bomb/Bomb1.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Bomb/Bomb1.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Instrument.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Instrument.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Instrument.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Box.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Box.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Box.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Firearm.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Firearm.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Firearm.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Bubble.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Bubble.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Bubble.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Hammer.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/Hammer.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/Hammer.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Instrument/ToolBomb.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Instrument/ToolBomb.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/SeedStoreScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/SeedStoreScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/Scene/PotionStoreScene.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/Scene/PotionStoreScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/build",
+  "command": "C:/Users/ASUS/llvm-mingw-20240417-msvcrt-x86_64/llvm-mingw-20240417-msvcrt-x86_64/bin/c++.exe  @CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Window.cpp.obj -c C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Window.cpp",
+  "file": "C:/Users/ASUS/Downloads/FP-iris/FP-iris/I2P2-TowerDefense-Student-main/UI/Component/Window.cpp",
+  "output": "CMakeFiles/2024_I2P2_TowerDefense_with_answer.dir/UI/Component/Window.cpp.obj"
+}
+]

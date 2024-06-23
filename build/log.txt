@@ -1,0 +1,183 @@
+[INFO] Game Initializing...
+[INFO] Loaded Resource<image>: Resource/images/icon.png
+[INFO] Loaded window icon from: icon.png
+[INFO] There are total 2 supported mouse buttons
+[INFO] Allegro5 initialized
+[INFO] Game begin
+[INFO] Loaded Resource<image>: Resource/images/reset/farm.png scaled to 1700x1100
+[INFO] Loaded Resource<font>: Resource/fonts/Demo.ttf with size 180
+[INFO] Loaded Resource<image>: Resource/images/stage-select/back.png scaled to 400x100
+[INFO] Loaded Resource<image>: Resource/images/stage-select/back.png
+[INFO] Loaded Resource<image>: Resource/images/stage-select/on.png
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 48
+[INFO] Game initialized
+[INFO] Game start event loop
+[INFO] Loaded Resource<image>: Resource/images/reset/select.png scaled to 1700x1100
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 36
+[INFO] Loaded Resource<audio>: Resource/audios/moo.wav
+[INFO] Created<sample_instance>: Resource/audios/moo.wav
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Loaded Resource<image>: Resource/images/stage-select/background.png scaled to 1700x1100
+[INFO] Loaded Resource<image>: Resource/images/Potion/top.png
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 70
+[INFO] Loaded Resource<image>: Resource/images/Potion/potion1.png
+[INFO] Loaded Resource<image>: Resource/images/Potion/potion2.png
+[INFO] Loaded Resource<image>: Resource/images/Potion/potion3.png
+[INFO] Loaded Resource<image>: Resource/images/stage-select/back.png scaled to 200x50
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 24
+[INFO] Loaded Resource<image>: Resource/images/stage-select/back.png scaled to 150x50
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 30
+[INFO] Changed to potion-store scene
+[INFO] Loaded Resource<image>: Resource/images/Potion/window3.png
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 20
+[INFO] Changed to potion-store scene
+[INFO] Loaded Resource<image>: Resource/images/Potion/window2.png
+[INFO] Changed to potion-store scene
+[INFO] Loaded Resource<audio>: Resource/audios/money.wav
+[INFO] Loaded Resource<image>: Resource/images/Potion/gray.png scaled to 150x50
+[INFO] Changed to potion-store scene
+[INFO] Loaded Resource<image>: Resource/images/our_game/floor7.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower5.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower6.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower2.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower4.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower8.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower1.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower7.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/flower3.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/floor.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/our_game/scarecrow4.png
+[INFO] Loaded Resource<image>: Resource/images/our_game/bubble.png
+[INFO] Loaded Resource<image>: Resource/images/our_game/firearm.png
+[INFO] Loaded Resource<image>: Resource/images/our_game/hammer.png
+[INFO] Loaded Resource<image>: Resource/images/our_game/bomb.png
+[INFO] Loaded Resource<image>: Resource/images/play/benjamin.png
+[INFO] Loaded Resource<image>: Resource/images/play/target.png
+[INFO] Loaded Resource<audio>: Resource/audios/lose.wav
+[INFO] Created<sample_instance>: Resource/audios/lose.wav
+[INFO] Loaded Resource<image>: Resource/images/lose/benjamin-happy.png
+[INFO] Loaded Resource<audio>: Resource/audios/farming.wav
+[INFO] Loaded Resource<image>: Resource/images/our_game/role1.png
+[INFO] Loaded Resource<image>: Resource/images/our_game/role2.png
+[INFO] Changed to ourgame-scene scene
+[INFO] Loaded Resource<image>: Resource/images/our_game/bomb2.png
+[INFO] Loaded Resource<audio>: Resource/audios/placebomb.wav
+[INFO] Loaded Resource<image>: Resource/images/our_game/fireeffect.png
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 40
+[INFO] Loaded Resource<audio>: Resource/audios/life.wav
+[INFO] stopped audio (bgm)
+[INFO] Loaded Resource<image>: Resource/images/reset/Player2Win.png scaled to 1600x900
+[INFO] Created<sample_instance>: Resource/audios/lose.wav
+[INFO] Changed to lose scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: Resource/audios/moo.wav
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Changed to farm-select scene
+[INFO] Loaded Resource<image>: Resource/images/farm/grass.png scaled to 64x64
+[INFO] Loaded Resource<image>: Resource/images/farm/soil.png scaled to 64x64
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 34
+[INFO] Loaded Resource<image>: Resource/images/stage-select/background.png scaled to 320x832
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 26
+[INFO] Loaded Resource<image>: Resource/images/play/tower-base.png
+[INFO] Loaded Resource<image>: Resource/images/farm/wheat.png
+[INFO] Loaded Resource<image>: Resource/images/play/floor.png
+[INFO] Loaded Resource<image>: Resource/images/play/dirt.png
+[INFO] Loaded Resource<image>: Resource/images/farm/vegetable.png
+[INFO] Loaded Resource<image>: Resource/images/farm/apple.png
+[INFO] Loaded Resource<image>: Resource/images/farm/flower.png
+[INFO] Loaded Resource<image>: Resource/images/farm/sickle.png
+[INFO] Loaded Resource<image>: Resource/images/stage-select/back.png scaled to 260x90
+[INFO] Loaded Resource<font>: Resource/fonts/pirulen.ttf with size 46
+[INFO] Loaded Resource<audio>: Resource/audios/farm.wav
+[INFO] Changed to farm scene
+[INFO] stopped audio (bgm)
+[INFO] Created<sample_instance>: Resource/audios/moo.wav
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Changed to farm-select scene
+[INFO] Changed to farm scene
+[INFO] stopped audio (bgm)
+[INFO] Created<sample_instance>: Resource/audios/moo.wav
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Changed to potion-store scene
+[INFO] Loaded Resource<image>: Resource/images/Potion/window1.png
+[INFO] Changed to potion-store scene
+[INFO] Changed to potion-store scene
+[INFO] Game Terminating...
+[INFO] Game terminated
+[INFO] Game end
+[INFO] Destroyed Resource<image>: Potion/window1.png
+[INFO] Destroyed Resource<image>: stage-select/back.png?260x90
+[INFO] Destroyed Resource<image>: farm/flower.png
+[INFO] Destroyed Resource<image>: farm/apple.png
+[INFO] Destroyed Resource<image>: farm/vegetable.png
+[INFO] Destroyed Resource<image>: stage-select/background.png?320x832
+[INFO] Destroyed Resource<image>: play/floor.png
+[INFO] Destroyed Resource<image>: play/tower-base.png
+[INFO] Destroyed Resource<image>: farm/soil.png?64x64
+[INFO] Destroyed Resource<image>: farm/grass.png?64x64
+[INFO] Destroyed Resource<image>: reset/Player2Win.png?1600x900
+[INFO] Destroyed Resource<image>: our_game/role2.png
+[INFO] Destroyed Resource<image>: play/target.png
+[INFO] Destroyed Resource<image>: stage-select/back.png?400x100
+[INFO] Destroyed Resource<image>: lose/benjamin-happy.png
+[INFO] Destroyed Resource<image>: Potion/potion3.png
+[INFO] Destroyed Resource<image>: our_game/bomb.png
+[INFO] Destroyed Resource<image>: our_game/hammer.png
+[INFO] Destroyed Resource<image>: our_game/firearm.png
+[INFO] Destroyed Resource<image>: our_game/scarecrow4.png
+[INFO] Destroyed Resource<image>: our_game/floor.png?64x64
+[INFO] Destroyed Resource<image>: stage-select/background.png?1700x1100
+[INFO] Destroyed Resource<image>: our_game/bubble.png
+[INFO] Destroyed Resource<image>: farm/wheat.png
+[INFO] Destroyed Resource<image>: our_game/flower3.png?64x64
+[INFO] Destroyed Resource<image>: our_game/flower7.png?64x64
+[INFO] Destroyed Resource<image>: stage-select/on.png
+[INFO] Destroyed Resource<image>: Potion/top.png
+[INFO] Destroyed Resource<image>: stage-select/back.png
+[INFO] Destroyed Resource<image>: play/dirt.png
+[INFO] Destroyed Resource<image>: our_game/flower1.png?64x64
+[INFO] Destroyed Resource<image>: our_game/flower6.png?64x64
+[INFO] Destroyed Resource<image>: our_game/flower8.png?64x64
+[INFO] Destroyed Resource<image>: our_game/role1.png
+[INFO] Destroyed Resource<image>: our_game/flower4.png?64x64
+[INFO] Destroyed Resource<image>: our_game/flower2.png?64x64
+[INFO] Destroyed Resource<image>: our_game/flower5.png?64x64
+[INFO] Destroyed Resource<image>: icon.png
+[INFO] Destroyed Resource<image>: Potion/gray.png?150x50
+[INFO] Destroyed Resource<image>: our_game/fireeffect.png
+[INFO] Destroyed Resource<image>: Potion/window3.png
+[INFO] Destroyed Resource<image>: our_game/bomb2.png
+[INFO] Destroyed Resource<image>: stage-select/back.png?150x50
+[INFO] Destroyed Resource<image>: Potion/window2.png
+[INFO] Destroyed Resource<image>: stage-select/back.png?200x50
+[INFO] Destroyed Resource<image>: Potion/potion1.png
+[INFO] Destroyed Resource<image>: reset/farm.png?1700x1100
+[INFO] Destroyed Resource<image>: reset/select.png?1700x1100
+[INFO] Destroyed Resource<image>: farm/sickle.png
+[INFO] Destroyed Resource<image>: our_game/floor7.png?64x64
+[INFO] Destroyed Resource<image>: play/benjamin.png
+[INFO] Destroyed Resource<image>: Potion/potion2.png
+[INFO] Destroyed Resource<font>: pirulen.ttf?34
+[INFO] Destroyed Resource<font>: pirulen.ttf?40
+[INFO] Destroyed Resource<font>: pirulen.ttf?20
+[INFO] Destroyed Resource<font>: pirulen.ttf?30
+[INFO] Destroyed Resource<font>: pirulen.ttf?24
+[INFO] Destroyed Resource<font>: pirulen.ttf?36
+[INFO] Destroyed Resource<font>: pirulen.ttf?46
+[INFO] Destroyed Resource<font>: pirulen.ttf?48
+[INFO] Destroyed Resource<font>: pirulen.ttf?70
+[INFO] Destroyed Resource<font>: pirulen.ttf?26
+[INFO] Destroyed Resource<font>: Demo.ttf?180
+[INFO] Destroyed<sample_instance>: lose.wav
+[INFO] Destroyed<sample_instance>: moo.wav
+[INFO] Destroyed Resource<audio>: farm.wav
+[INFO] Destroyed Resource<audio>: life.wav
+[INFO] Destroyed Resource<audio>: placebomb.wav
+[INFO] Destroyed Resource<audio>: farming.wav
+[INFO] Destroyed Resource<audio>: lose.wav
+[INFO] Destroyed Resource<audio>: money.wav
+[INFO] Destroyed Resource<audio>: moo.wav
